@@ -1,0 +1,135 @@
+body{
+  background-color:#414141;
+  min-width: 50em;
+  color: white;
+}
+/* TO THE WHOLE PROJECT */
+
+.component {
+  padding: 2em;
+}
+
+.LinkP{
+  color: white;
+  
+}
+.whiteText {
+  color: white;
+  text-decoration: none;
+}
+/* Header */
+
+header {
+  background-color: #282c34;
+  color: white;
+  width:100%;
+  border: 2px #282c34 solid;
+
+}
+header h1 {
+  padding: .5em;
+}
+header .links {
+  text-decoration: none;
+  padding: 10px;
+  float: right;
+  color: gray
+}
+
+header div a.active {
+  color: white;
+  border: white solid 1px;
+}
+
+
+/* PAGINA Home */
+
+.Home p{
+  color: white;
+  margin-top: 2em;
+}
+
+
+/* List */
+
+tr {
+  margin-top:1em;
+}
+
+table {
+  color: white;
+}
+
+.RowNames{
+  border-bottom: gray solid 1px;
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: 14em 14em 14em;
+    
+}
+
+.AlbumInfo{
+  display: grid;
+  grid-template-columns: 14em 14em 14em;
+}
+
+/* ADD AN ALBUM */
+
+form {
+  margin-top: 2em;
+  border: 3px white solid;
+  width: min-content;
+  padding: 2em;
+  display: grid;
+  grid-template-rows: 2em 2em 2em 3.5em;
+  }
+
+.Label-Input {
+  display: grid;
+  grid-template-columns: 10em 10em 10em;
+}
+input {
+margin: .2em;
+
+}
+label {
+  color: white
+}
+form button {
+  margin-top: 1em;
+  background-color: #a5a5a5;
+}
+
+/* ALBUM DATA */
+
+.AlbumDescription {
+  border: 1px solid white;
+  border-radius: 1em;
+  width: fit-content;
+  padding: 20px;
+  margin-top: 2em;
+  color: white;
+
+}
+
+/* BOUGHT ALBUMS */
+
+.BoughtAlbumData {
+  
+  border: 1px solid;
+  border-radius: 1em;
+  padding: 1em;
+  width:20em;
+  height: 10em;
+  color: white;
+  margin: 2em;
+}
+.AlbumDataContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.NoPurchase {
+  margin-top:2em;
+  margin-bottom: 2em;
+  color: white;
+}
