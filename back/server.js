@@ -10,7 +10,7 @@ const optionsDb = {
     host:'localhost',
     port: 3306,
     user: 'root',
-    password:'Panconqueso@1',
+    password:'password',
     database:'albums',
     
 }
